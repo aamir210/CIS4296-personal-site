@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Aamir Contractor</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            font-family: 'Times New Roman';
             scroll-behavior: smooth;
         }
 
@@ -30,9 +30,9 @@
         }
 
         .btn-outline {
-            color: black;
+            color: blue;
             background-color: white;
-            border: 2px solid black;
+            border: 2px solid blue;
             opacity: 0.5;
             transition: 0.3s;
 
@@ -52,13 +52,13 @@
         }
 
         .contacticon a {
-            color: rgb(33, 37, 41);
+            color: blue;
         }
 
         .course {
             margin: 0 10px;
             padding: 20px;
-            background-color: #eeeeee;
+            background-color: blue;
             border-radius: 5px;
             display: flex;
             justify-content: center;
@@ -75,14 +75,27 @@
         }
 
         .next a {
-            color: rgb(33, 37, 41);
+            color: blue;
+        }
+
+        .container {
+            margin: auto;
+        }
+
+        .dropdown {
+            margin: auto;
+        }
+
+        .accordion {
+            margin: auto;
+            margin-left: 10rem;
         }
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Aamir Contractor<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -91,7 +104,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#projects">Summary</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#courses">Courses</a>
@@ -104,37 +117,26 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hi, I'm Aamir!</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
+            <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Major at Temple
                 University.</h5>
         </div>
         <div class="row my-4">
             <div class="col my-3"><img src="images/python.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="Python" /></div>
-            <div class="col my-3"><img src="images/angular.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Angular" /></div>
-            <div class="col my-3"><img src="images/typescript.jpg" class="lang" data-toggle="tooltip"
-                    data-placement="top" title="TypeScript" /></div>
-
             <div class="col my-3"><img src="images/csharp.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="C#" /></div>
-            <div class="col my-3"><img src="images/node.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Node.js" /></div>
             <div class="col my-3"><img src="images/java.jpg" class="lang" data-toggle="tooltip" data-placement="top"
                     title="Java" /></div>
-
-            <div class="col my-3"><img src="images/aspnet.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="ASP.NET" /></div>           
-                     <div class="col my-3"><img src="images/mssql.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="Microsoft SQL Server" /></div> <div class="col my-3"><img src="images/mongodb.jpg" class="lang" data-toggle="tooltip" data-placement="top"
-                    title="MongoDB" /></div>
-
+            <div class="col my-3"><img src="images/javascript.png" class="lang" data-toggle="tooltip"
+                    data-placement="top" title="JavaScript" /></div>
         </div>
+
         <div class="row my-4">
             <div class="col">
-                <a href="#projects"><button type="button" class="btn btn-outline">Projects</button></a>
+                <a href="#summary"><button type="button" class="btn btn-outline">Summary</button></a>
             </div>
             <div class="col">
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
@@ -144,65 +146,57 @@
             </div>
         </div>
         <div class="row mt-5 next">
-            <a href="#projects" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Projects"></i></a> </div>
+            <a href="#summary" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="Summary"></i></a>
+        </div>
 
     </div>
-    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
+    <div class="container landing d-flex justify-content-center flex-column align-items-center" id="summary">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Summary</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
+            <h5 class="display-5 mx-auto faded text-center mb-4">Here's a cool project I've worked on!</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>Cloud Security Response Validation Exercises</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">
+                I developed tests known as Cloud Security Response Validation
+                exercises to evaluate Security Incident Response Team’s (SIRT)
+                response to cloud security incidents and vulnerabilities from
+                incident creation to closure. I utilized AWS to imitate known
+                vulnerabilities and security breaches to evaluate SIRT on its
+                ability to resolve cloud security incidents and address improper
+                cloud security hygiene. I designed functional/nonfunctional
+                requirements, report templates, and documentation for the
+                exercises, obtained approval of each from Cloud Security and Cyber
+                Security Operations Center management. I crafted and presented post
+                -incident report detailing SIRT’s interactions during exercise,
+                logging metrics, timeline of events, efficacy of solution, best
+                possible solution, and areas of improvement in response.
+            </p>
         </div>
-        <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
-        </div>
-        <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
-        </div>
-        <div class="row w-100">
-            <h5>Query Dating Site</h5>
-        </div>
-        <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
-        </div>
+
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Courses"></i></a> </div>
+                    title="Courses"></i></a>
+        </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+            <h5 class="display-5 mx-auto faded text-center">Here are some courses I've taken.</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
-                <h5>Information Systems Analysis and Design</h5>
+                <h5>Program Design and Abstraction</h5>
             </div>
             <div class="col text-center course">
-                <h5>Server-Side Web Application Development</h5>
+                <h5>Data Structures</h5>
             </div>
         </div>
         <div class="row w-100 justify-content-center my-3">
@@ -210,7 +204,7 @@
                 <h5>Network Architectures</h5>
             </div>
             <div class="col text-center course">
-                <h5>Client-Side Scripting</h5>
+                <h5>Client-Side Scripting for the Web</h5>
             </div>
         </div>
         <div class="row w-100 justify-content-center my-3">
@@ -223,39 +217,64 @@
         </div>
         <div class="row mt-5 next">
             <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Contact"></i></a> </div>
+                    title="Contact"></i></a>
+        </div>
     </div>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Contact Me</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+            <h5 class="display-5 mx-auto faded text-center">Click below!</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
-                    data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
+            <a href="mailto:aamir@temple.edu" class="col mx-3"><i class="fas fa-envelope-square" data-toggle="tooltip"
+                    data-placement="top" title="Email"></i></a>
+            <a href="https://www.linkedin.com/in/aamir-c/" class="col mx-3"><i class="fab fa-linkedin"
                     data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
-                    data-toggle="tooltip" data-placement="top" title="Github"></i></a>
-
         </div>
         <div class="row mt-5">
             <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
         </div>
     </div>
+
+
+    <!-- trying to implement a card component here-->
+    <!-- this particular sample taken from official bootstrap documentation-->
+    <div class="card" style="width: 18rem;">
+        <img src="images/aspnet.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Surprise!</h5>
+            <p class="card-text">I also have familiarity with ASP.NET!</p>
+            <a href="#" class="btn btn-primary">Click here to see the languages I'm familiar with.</a>
+        </div>
+    </div>
+
+    <!-- here I'm trying to implement an accordion component-->
+    <!-- the source for this component is also the official bootstrap documentation-->
+
+    <h4>Here are some of the languages I'm familiar with ordered beginning with my most proficient.</h4>
+    <ol class="list-group list-group-numbered">
+        <li class="list-group-item">Python</li>
+        <li class="list-group-item">Java</li>
+        <li class="list-group-item">C#</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">HTML/CSS</li>
+        <li class="list-group-item">React</li>
+      </ol>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-    </script>
+        </script>
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()
